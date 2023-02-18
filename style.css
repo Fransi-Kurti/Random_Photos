@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top, lightgrey, darkgrey, grey);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container{
+    text-align: center;
+}
+
+.container img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.5);
+    margin: 10px;
+    background-color: grey;
+}
+
+.btn{
+    background-color: rgb(49, 49, 49);
+    height: 40px;
+    border: 1px solid darkred;
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,.3);
+    border-radius: 6px;
+}
+
+.btn:hover{
+    background-color: rgb(11, 11, 11);
+}
